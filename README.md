@@ -37,6 +37,7 @@ registry
 ```bash
 sudo apt install openjdk-11-jre-headless
 ```
+- Устанавливаем сам schema-registry по [инструкции](https://docs.confluent.io/platform/current/installation/installing_cp/deb-ubuntu.html#systemd-ubuntu-debian-install)
 - Следуя инструкции для подключения к кластеру для Java, создаем хранилище для сертификата
 ```bash
 mkdir -p /usr/local/share/ca-certificates/Yandex
